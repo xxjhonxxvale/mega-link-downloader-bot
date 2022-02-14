@@ -28,7 +28,7 @@ class Config(object):
     REDIS_PASS = os.environ.get("REDIS_PASS", "n22xkRoCnd5egA70JRMkKvPlzdzziguW") # Get This Value from http://redislabs.com/try-free (If you don't know how to obtain the a video tutorial is available here:- https://t.me/botzupdate/5)
     #If deploying on vps edit the above value as example := REDIS_PASS = "Your-Redis-Password-inside-inverted-commas."
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "788470193").split()) # Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once!
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", 788470193).split()) # Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once!
     
     #If deploying on heroku separate the ids by space. (don't put commas. Only separate each of the id's with space)
     
