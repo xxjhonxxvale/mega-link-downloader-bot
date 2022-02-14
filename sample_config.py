@@ -4,7 +4,7 @@ class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5156571275:AAEIedrruznnIo2cOwcPBr2nibQxqGJIwo4") # Make a bot from https://t.me/BotFather and enter the token here
     #If deploying on vps edit the above value as example := TG_BOT_TOKEN = "Your-bot-token-inside-inverted-commas."
     
-    APP_ID = int(os.environ.get("APP_ID", 15549525)) # Get this value from https://my.telegram.org/apps
+    APP_ID = int(os.environ.get("APP_ID", 15549525) # Get this value from https://my.telegram.org/apps
     #If deploying on vps edit the above value as example := APP_ID = Your-APP_ID-without-inverted-commas
     
     API_HASH = os.environ.get("API_HASH", "6d23008833da5fca1b2bd886dd577d16") # Get this value from https://my.telegram.org/apps
